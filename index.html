@@ -1,0 +1,85 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <title>Bookmarker</title>
+
+   
+    <link href="E:/git/bookmarker/css/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"  href="css/style.css">
+
+  
+  </head>
+
+  <body onload="fetchBookmark()">
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+       
+        <form class="form-inline my-2 my-lg-0">
+         
+          
+        </form>
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h2 class="display-3">Bookmark Your Favourite Page</h2>
+          
+          <form id="myForm">
+            <div class="formGroup">
+              <label text-align="center"; align="centre">Site Name</label>
+              <input type="text" class="form-control" id="siteName" placeholder="Website name">
+            </div>
+          
+         
+            <div class="formGroup">
+               <label text-align="center"; align="centre">Site URL</label>
+              <input type="text" class="form-control" id="siteURL" placeholder="Website URL">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-12">
+            <div id="bookmarkResult"></div>
+          </div>
+         
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>&copy; Bookmarker 2017-2018</p>
+    </footer>
+
+   <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="js/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/js/main.js"></script>
+  </body>
+</html>
